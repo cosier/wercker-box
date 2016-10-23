@@ -8,7 +8,7 @@ dev:
         reload: true
 build:
     steps:
-        - bundle-install
+        # - bundle-install
         - script:
             name: rspec
-            code: bundle exec rspec
+            code: ls
